@@ -1,13 +1,134 @@
+.navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-right: 20px;
+    border-left: 20px;
+    border-bottom: #777777 solid 2px;
+}
+
 .navbar-brand {
-    color: white;
+    font-size: 28px;
     background-color: #4aaaa5;
-    padding: 30px;
+    padding: 20px 50px 20px 50px;
+    margin-left: 150px;
+}
+
+.navbar-nav {
+    margin-right: 120px;
+}
+.nav-link {
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    display: inline-block;
 }
 
 .container{
-    border-bottom: 2px solid #cccccc;
+    width:100%;
+    max-width: 960px;
+    background: white;
+    margin-top: 30px;;
+    clear: both;
 }
 
 .nav-link {
     color: #777777;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777777;
+    background: url("concrete-background.jpg");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    background: white;
+    padding-top: 20px;
+    padding-left: 25px;
+    line-height: 50px;
+    position: relative;
+}
+
+h1 {
+    line-height: 49px;
+    border-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    font-size: 30px;
+    border-bottom: 3px solid #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+
+h3 {
+    position: absolute;
+    width: 100%;
+    padding: 15px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+
+.work {
+    position: relative;
+    float: left;
+    margin: 20px 25px 25px;
+}
+
+.image {
+    position: relative;
+    width: 200px;
+}
+
+.textBox {
+    position: relative;
+    float:right;
+    font-size: 24px;
+    line-height: 45px;
+    top: 106;
+    padding: 10;
+    width: auto;
+    left: 150px;
+    background: #ffffff;
+    
+    }
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    float: left;
+    line-height: 34px;
+    margin: 0px;
+}
+
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #cccccc;
+    text-align: center;
+    border-top: #4aaaa5 8px solid;
+    background: #666666;
+    height: 50px;
+}
+
