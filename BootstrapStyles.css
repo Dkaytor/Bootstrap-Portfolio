@@ -6,8 +6,12 @@
     margin-right: 20px;
     border-right: 20px;
     border-left: 20px;
-    border-bottom: #777777 solid 2px;
+    border-bottom: #cccccc solid 2px;
+    background-color: #ffffff;
+    overflow: auto;
+    z-index: 99;
 }
+
 
 .navbar-brand {
     font-size: 28px;
@@ -24,26 +28,28 @@
     margin-left: 15px;
     line-height: 18px;
     display: inline-block;
+    color: #777777;
 }
 
 .container{
     width:100%;
     max-width: 960px;
     background: white;
-    margin-top: 30px;;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-right: 30px;
+    padding-top: 70px;
+    border: solid 1px #cccccc;
     clear: both;
 }
 
-.nav-link {
-    color: #777777;
-}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("concrete-background.jpg");
+    background: url("concrete2.jpg");
 }
 
 * {
@@ -52,7 +58,6 @@ body {
 
 .row {
     background: white;
-    padding-top: 20px;
     padding-left: 25px;
     line-height: 50px;
     position: relative;
@@ -118,9 +123,48 @@ p {
     margin-inline-end: 0px;
     float: left;
     line-height: 34px;
-    margin: 0px;
+    margin-top: 10px;
 }
 
+li {
+    height: 35px;
+}
+
+ul {
+    padding-inline-start: 20px;
+}
+
+#name {
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+}
+
+#email {
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+}
+
+#message {
+    width: 100%;
+    border: 1px solid #dddddd;
+    height: 200px;
+}
+
+.btn.btn-primary {
+        padding: 10px 30px;
+        font-size: 18px;
+        color: #ffffff;
+        cursor: pointer;
+        background: #4aaaa5;
+        border: 0 none;
+        margin: 20px;
+}
 footer {
     padding: 30px 0;
     clear: both;

@@ -3,53 +3,90 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>Contact | Dina Kaytor</title>
+  <link rel="stylesheet" type="text/css" href="resetCSS.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="BootstrapStyles.css">
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+  <nav class="navbar navbar-expand-md navbar-static-top navbar-light bg-light">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="color: #ffffff;">Dina Kaytor</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>          
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              </ul>  
+              </div> 
+              </div>       
+     </div>
+  </nav>
 
   <div id="main-container" class="container">
     <section class="main-section">
       <h1>Contact</h1>
-
-      <form id="contact-form">
-        <ul>
+      <div class="row">
+        <div class="col-md-12">
           <li>
             <label for="name">Name</label>
+          </li>
+        </div>
+      </div>
+      <ul>
+        <div class="row">
+          <div class="col-md-12">
             <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
+           </div>
+          </div>
+          </ul>
+        <div class="row">
+          <div class="col-md-12">
+            <li>
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
+            </li>
+            </div>
+          </div>
+          <ul>
+          <div class="row">
+            <div class="col-md-12">
+            <input type="email" id="email" name="email" placeholder="John.Smith@gmail.com" required="required">
+          </div>
+        </div>
+        </ul>
+          <div class="row">
+            <div class="col-md-12">
           <li>
             <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
           </li>
-        </ul>
-        <input type="submit">
-      </form>
+            </div>
+          </div>
+          <ul>
+          <div class="row">
+            <div class="col-md-12">
+            <textarea id="message" name="message" required="required"></textarea>
+            </div>
+          </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+   
 
     </section>
 
   </div>
 
   <footer>
-    <div class="container">
       Copyright &copy; 
-    </div>
   </footer>
 </body>
 
