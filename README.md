@@ -1,4 +1,4 @@
- # My Portfolio
+ # D-Kaytor-Portfolio
 
  This represents a portfolio of projects that I have done using various technologies such: HTML, CSS, Javascript, jQuery, AJAX and Firebase
 
