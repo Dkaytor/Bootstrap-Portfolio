@@ -2,8 +2,8 @@
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 115px;
+    margin-right: 115px;
     border-right: 20px;
     border-left: 20px;
     border-bottom: #cccccc solid 2px;
@@ -17,11 +17,11 @@
     font-size: 28px;
     background-color: #4aaaa5;
     padding: 20px 50px 20px 50px;
-    margin-left: 150px;
+    margin-left: 5px;
 }
 
 .navbar-nav {
-    margin-right: 120px;
+    margin-right: 20px;
 }
 .nav-link {
     padding-left: 15px;
@@ -32,13 +32,11 @@
 }
 
 .container{
-    width:100%;
-    max-width: 960px;
-    background: white;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    padding-right: 30px;
-    padding-top: 70px;
+    background: grey;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-right: 15px;
+    padding-top: 20px;
     border: solid 1px #cccccc;
     clear: both;
 }
@@ -49,7 +47,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("concrete2.jpg");
+    background: url("wallpaper.jpg");
 }
 
 * {
@@ -57,22 +55,23 @@ body {
 }
 
 .row {
-    background: white;
-    padding-left: 25px;
+    background: #f0f5f5;
+    padding-left: 0px;
     line-height: 50px;
     position: relative;
 }
 
 h1 {
     line-height: 49px;
-    border-top: 40px;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    padding-left: 15px;
+    border-top: 20px;
     font-size: 30px;
     border-bottom: 3px solid #dddddd;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
+    color: #4aaaa5;
+}
+
+.link {
     color: #4aaaa5;
 }
 
@@ -100,6 +99,7 @@ h3 {
 .image {
     position: relative;
     width: 200px;
+    padding-right: 5px;
 }
 
 .textBox {
@@ -121,9 +121,10 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    float: left;
     line-height: 34px;
     margin-top: 10px;
+    margin-right: 0px;
+    border-left: 10px;
 }
 
 li {
@@ -165,10 +166,20 @@ ul {
         border: 0 none;
         margin: 20px;
 }
+
+.col-md-9 {
+    padding: 0px;
+}
+
+.col-md-3 {
+    padding: 0px;
+}
 footer {
     padding: 30px 0;
     clear: both;
     font-size: 12px;
+    margin-left: 115px;
+    margin-right: 115px;
     color: #cccccc;
     text-align: center;
     border-top: #4aaaa5 8px solid;
