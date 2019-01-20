@@ -9,4 +9,4 @@ The first page provides a brief description about my experience and accomplishme
 The Portfolio page shows images of the various projects I have completed.
 Click on the image and it will launch the deployed site for that project.
 
-Deployed: 
+Deployed: https://dkaytor.github.io/D-Kaytor-Portfolio/
