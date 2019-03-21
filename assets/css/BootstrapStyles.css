@@ -1,13 +1,13 @@
 .navbar {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
     padding-bottom: 0px;
     margin-left: 95px;
     margin-right: 95px;
     border-right: 20px;
     border-left: 20px;
-    border-bottom: #cccccc solid 2px;
-    background-color: #ffffff;
+    border-bottom: darkgreen 2px;
+    background-color:  burlywood;
     overflow: auto;
     z-index: 99;
 }
@@ -15,7 +15,7 @@
 
 .navbar-brand {
     font-size: 28px;
-    background-color: #4aaaa5;
+    background-color: darkgreen;
     padding: 20px 50px 20px 50px;
     margin-left: 5px;
 }
@@ -28,7 +28,7 @@
     margin-left: 15px;
     line-height: 18px;
     display: inline-block;
-    color: #777777;
+    color: brown;
 }
 
 .container{
@@ -37,8 +37,8 @@
     margin-bottom: 20px;
     padding-right: 15px;
     padding-top: 20px;
-    background: rgba(236, 240, 241, 0.5);
-    border: solid 1px #cccccc;
+    background: burlywood;
+    border: solid 1px burlywood;
     clear: both;
 }
 
@@ -47,8 +47,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 34px;
-    color: #777777;
-    background: url("wallpaper4.jpeg");
+    color: brown;
+    background: url("vintage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .row {
-    background: rgba(236, 240, 241, 1);
+    background: burlywood;
     padding-left: 0px;
     line-height: 50px;
     position: relative;
@@ -68,14 +68,18 @@ h1 {
     line-height: 49px;
     border-top: 20px;
     font-size: 30px;
-    border-bottom: 3px solid #dddddd;
+    border-bottom: 3px solid darkgreen;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: brown;
 }
 
 .link {
-    color: darkblue;
+    color: darkgreen;
+}
+
+a {
+    color: darkgreen;
 }
 
 h3 {
@@ -87,9 +91,9 @@ h3 {
     font-weight: 300;
     font-size: 20px;
     line-height: 30px;
-    color: #ffffff;
+    color: darkgreen;
     text-align: center;
-    background: #4aaaa5;
+    background: burlywood;
     border-bottom: 0;
 }
 
@@ -114,7 +118,7 @@ h3 {
     padding: 10;
     width: auto;
     left: 150px;
-    background: #ffffff;
+    background: lightgoldenrodyellow;
     
     }
 
@@ -165,7 +169,7 @@ ul {
         font-size: 18px;
         color: #ffffff;
         cursor: pointer;
-        background: #4aaaa5;
+        background: burlywood;
         border: 0 none;
         margin: 20px;
 }
@@ -183,10 +187,10 @@ footer {
     font-size: 12px;
     margin-left: 95px;
     margin-right: 95px;
-    color: #cccccc;
+    color: beige;
     text-align: center;
-    border-top: #4aaaa5 8px solid;
-    background: #666666;
+    border-top:darkgreen 8px solid;
+    background: burlywood;
     height: 50px;
 }
 
