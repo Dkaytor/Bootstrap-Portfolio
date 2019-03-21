@@ -1,6 +1,6 @@
  # D-Kaytor-Portfolio
 
- This represents a portfolio of projects that I have done using various technologies such: HTML, CSS, Javascript, jQuery, AJAX and Firebase
+ This represents a portfolio of projects that I have done using various technologies such: HTML, CSS, Javascript, jQuery, AJAX, Firebase, MySQL, Mongo, Express, Handlebars and Sequelize.
 
 The header on each page (Nav-Bar) provides my email address and links to my Github account, Linked In site and my resume. The first page provides a brief description about my experience and accomplishments.
 
